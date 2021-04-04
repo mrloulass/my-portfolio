@@ -1,10 +1,10 @@
-Author: Louis Lasssegue
+Author: Louis Lasssegue [My Portfolio](https://determined-darwin-67a50a.netlify.app/)
 
 Tools: [Template from github](https://github.com/codefellows/code-301-react-portfolio-template), GitHub, VSC, Netlify, React, HTML, JavaScript
 
-What are we implementing?: Im using Netlify to deploy the template code.
+What are we implementing?: Im using Netlify to deploy the template code to make a portfolio.
 
-Number and name of feature: Deployment
+Feature #1: Deployment
 
 Estimate of time needed to complete: 30
 
@@ -13,6 +13,19 @@ Start time: 2:30
 Finish time: 2:50
 
 Actual time needed to complete:20 mins
+
+
+What are we implementing?: 
+
+Feature #2: Modify the contents 
+
+Estimate of time needed to complete: 3 hours
+
+Start time: 3:15
+
+Finish time: 
+
+Actual time needed to complete:
 
 
 
