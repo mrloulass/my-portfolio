@@ -2,6 +2,9 @@ Author: Louis Lasssegue [My Portfolio](https://determined-darwin-67a50a.netlify.
 
 Tools: [Template from github](https://github.com/codefellows/code-301-react-portfolio-template), GitHub, VSC, Netlify, React, HTML, JavaScript
 
+Photo by <a href="https://unsplash.com/@cadop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mathew Schwartz</a> on <a href="https://unsplash.com/s/photos/space-and-forest?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+
 What are we implementing?: Im using Netlify to deploy the template code to make a portfolio.
 
 Feature #1: Deployment
@@ -23,9 +26,9 @@ Estimate of time needed to complete: 3 hours
 
 Start time: 3:15
 
-Finish time: 
+Finish time: 6:00
 
-Actual time needed to complete:
+Actual time needed to complete: 2 days
 
 
 

@@ -17,14 +17,14 @@
 */
 import React from "react";
 // nodejs library that concatenates classes
-import classnames from "classnames";
-import promo1 from "assets/img/theme/promo-1.png";
-import cardImg from "assets/img/theme/img-1-1200x1000.jpg";
-import ill2 from "assets/img/ill/ill-2.svg";
-import team1 from "assets/img/theme/team-1-800x800.jpg";
-import team2 from "assets/img/theme/team-2-800x800.jpg";
-import team3 from "assets/img/theme/team-3-800x800.jpg";
-import team4 from "assets/img/theme/team-4-800x800.jpg";
+// import classnames from "classnames";
+import PicLouis from "assets/img/theme/PicLouis.jpg";
+// import cardImg from "assets/img/theme/img-1-1200x1000.jpg";
+// import ill2 from "assets/img/ill/ill-2.svg";
+// import team1 from "assets/img/theme/team-1-800x800.jpg";
+// import team2 from "assets/img/theme/team-2-800x800.jpg";
+// import team3 from "assets/img/theme/team-3-800x800.jpg";
+// import team4 from "assets/img/theme/team-4-800x800.jpg";
 
 // reactstrap components
 import {
@@ -32,12 +32,12 @@ import {
   Button,
   Card,
   CardBody,
-  CardImg,
-  FormGroup,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
+  // CardImg,
+  // FormGroup,
+  // Input,
+  // InputGroupAddon,
+  // InputGroupText,
+  // InputGroup,
   Container,
   Row,
   Col
@@ -45,10 +45,10 @@ import {
 
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
-import CardsFooter from "components/Footers/CardsFooter.js";
+// import CardsFooter from "components/Footers/CardsFooter.js";
 
 // index page sections
-import Download from "../IndexSections/Download.js";
+// import Download from "../IndexSections/Download.js";
 
 class Landing extends React.Component {
   state = {};
@@ -81,15 +81,16 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                        What Excites Me About Tech?{" "}
                       </h1>
                       <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                        "The innovations of tech in the last fifty years shows
+                        the endless possibilities for software and hardware to
+                        solve problems and improve people's lives. I’m excited to be part
+                        of these new innovations in tech and how I can support these new solutions
+                        for today's problems."
                       </p>
-                      <div className="btn-wrapper">
+                      {/* <div className="btn-wrapper">
                         <Button
                           className="btn-icon mb-3 mb-sm-0"
                           color="info"
@@ -112,7 +113,7 @@ class Landing extends React.Component {
                             Download React
                           </span>
                         </Button>
-                      </div>
+                      </div> */}
                     </Col>
                   </Row>
                 </div>
@@ -145,34 +146,38 @@ class Landing extends React.Component {
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
-                            <i className="ni ni-check-bold" />
+                            <i className="ni ni-app" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                            <a href="https://hirobius.github.io/memory-game/">Memory Madness</a>
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            Our project aids the user in finding ways to stay mentally sharp.
+                            It improves visual recognition skills while also helping your short to long term memory over time.
+                            It is lightweight, intuitive and fun for all ages.
+                            There is an even mix of native JavaScript identifiers and custom engineering by the team.
                           </p>
                           <div>
                             <Badge color="primary" pill className="mr-1">
-                              design
+                              HTML
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              system
+                              CSS
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              creative
+                              JavaScript
+                            </Badge>
+                            <Badge color="primary" pill className="mr-1">
+                              GitHub
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
                             color="primary"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            href="https://github.com/hirobius/memory-game"
+                            onClick={""}
                           >
-                            Learn more
+                            The Project
                           </Button>
                         </CardBody>
                       </Card>
@@ -181,10 +186,10 @@ class Landing extends React.Component {
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
-                            <i className="ni ni-istanbul" />
+                            <i className="ni ni-app" />
                           </div>
                           <h6 className="text-success text-uppercase">
-                            Build Something
+                            301 Project Name
                           </h6>
                           <p className="description mt-3">
                             Argon is a great free UI package based on Bootstrap
@@ -193,13 +198,13 @@ class Landing extends React.Component {
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
-                              business
+                              Tools
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              vision
+                              Tools
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              success
+                              Tools
                             </Badge>
                           </div>
                           <Button
@@ -208,7 +213,7 @@ class Landing extends React.Component {
                             href="#pablo"
                             onClick={e => e.preventDefault()}
                           >
-                            Learn more
+                            The Project
                           </Button>
                         </CardBody>
                       </Card>
@@ -217,10 +222,10 @@ class Landing extends React.Component {
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
-                            <i className="ni ni-planet" />
+                            <i className="ni ni-app" />
                           </div>
                           <h6 className="text-warning text-uppercase">
-                            Prepare Launch
+                            401 Project Name
                           </h6>
                           <p className="description mt-3">
                             Argon is a great free UI package based on Bootstrap
@@ -229,13 +234,13 @@ class Landing extends React.Component {
                           </p>
                           <div>
                             <Badge color="warning" pill className="mr-1">
-                              marketing
+                              Tools
                             </Badge>
                             <Badge color="warning" pill className="mr-1">
-                              product
+                              Tools
                             </Badge>
                             <Badge color="warning" pill className="mr-1">
-                              launch
+                              Tools
                             </Badge>
                           </div>
                           <Button
@@ -244,7 +249,7 @@ class Landing extends React.Component {
                             href="#pablo"
                             onClick={e => e.preventDefault()}
                           >
-                            Learn more
+                            The Project
                           </Button>
                         </CardBody>
                       </Card>
@@ -261,19 +266,28 @@ class Landing extends React.Component {
                   <img
                     alt="..."
                     className="img-fluid floating"
-                    src={promo1}
+                    src={PicLouis}
                   />
                 </Col>
                 <Col className="order-md-1" md="6">
                   <div className="pr-md-5">
                     <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
-                      <i className="ni ni-settings-gear-65" />
+                      <i className="ni ni-single-02" />
                     </div>
-                    <h3>Awesome features</h3>
+                    <h3>About Me</h3>
                     <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                      Hello, I am Louis Lassegue, a Software Developer.
+                      After 15 years in a retail environment specializing in inventory and logistics, it is clear that software development helps the world operate more accurately and efficiently.
+                      I decided to go into software development for a few reasons.
+                      One, I wanted a career that would stand the test of time.
+                      Two, software engineers often work in a team environment, an environment I enjoy.
+                      Three, having continuous challenges on a day to day basis keeps me engaged.
+
+                      I’m currently working to master the skill of coding in order to have the ability to work in multiple environments.
+                      Preferably, I would like to work for a company that focuses on providing solutions to everyday problems.
+                      Additionally it is important that the organization prides themselves on creating an environment of inclusion and that encourages outside the box solutions and ideas.
+                      My experiences in bringing people together in order to problem solve under pressure, the ability to create environments of inclusion and my desire to help provide solutions to everyone are the reasons you want me on your team.
+
                     </p>
                     <ul className="list-unstyled mt-5">
                       <li className="py-2">
@@ -283,12 +297,12 @@ class Landing extends React.Component {
                               className="badge-circle mr-3"
                               color="success"
                             >
-                              <i className="ni ni-settings-gear-65" />
+                              <i className="ni ni-bulb-61" />
                             </Badge>
                           </div>
                           <div>
                             <h6 className="mb-0">
-                              Carefully crafted components
+                            Strong problem solving skills
                             </h6>
                           </div>
                         </div>
@@ -300,11 +314,11 @@ class Landing extends React.Component {
                               className="badge-circle mr-3"
                               color="success"
                             >
-                              <i className="ni ni-html5" />
+                              <i className="ni ni-user-run" />
                             </Badge>
                           </div>
                           <div>
-                            <h6 className="mb-0">Amazing page examples</h6>
+                            <h6 className="mb-0">Ability to learn new languages and concepts quickly</h6>
                           </div>
                         </div>
                       </li>
@@ -315,12 +329,12 @@ class Landing extends React.Component {
                               className="badge-circle mr-3"
                               color="success"
                             >
-                              <i className="ni ni-satisfied" />
+                              <i className="ni ni-laptop" />
                             </Badge>
                           </div>
                           <div>
                             <h6 className="mb-0">
-                              Super friendly support team
+                            Full stack developer
                             </h6>
                           </div>
                         </div>
@@ -331,7 +345,7 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section>
-          <section className="section bg-secondary">
+          {/* <section className="section bg-secondary">
             <Container>
               <Row className="row-grid align-items-center">
                 <Col md="6">
@@ -340,8 +354,8 @@ class Landing extends React.Component {
                       alt="..."
                       src={cardImg}
                       top
-                    />
-                    <blockquote className="card-blockquote">
+                    /> */}
+                    {/* <blockquote className="card-blockquote">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="svg-bg"
@@ -367,9 +381,9 @@ class Landing extends React.Component {
                         continue whatever happens.
                       </p>
                     </blockquote>
-                  </Card>
-                </Col>
-                <Col md="6">
+                  </Card> */}
+                {/* </Col> */}
+                {/* <Col md="6">
                   <div className="pl-md-5">
                     <div className="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-5">
                       <i className="ni ni-settings" />
@@ -401,8 +415,8 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-          </section>
-          <section className="section pb-0 bg-gradient-warning">
+          </section> */}
+          {/* <section className="section pb-0 bg-gradient-warning">
             <Container>
               <Row className="row-grid align-items-center">
                 <Col className="order-lg-2 ml-lg-auto" md="6">
@@ -488,9 +502,9 @@ class Landing extends React.Component {
                   </Card>
                 </Col>
               </Row>
-            </Container>
+            </Container> */}
             {/* SVG separator */}
-            <div className="separator separator-bottom separator-skew zindex-100">
+            {/* <div className="separator separator-bottom separator-skew zindex-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="none"
@@ -505,8 +519,8 @@ class Landing extends React.Component {
                 />
               </svg>
             </div>
-          </section>
-          <section className="section section-lg">
+          </section> */}
+          {/* <section className="section section-lg">
             <Container>
               <Row className="justify-content-center text-center mb-lg">
                 <Col lg="8">
@@ -768,9 +782,9 @@ class Landing extends React.Component {
                   </p>
                 </Col>
               </Row>
-            </Container>
+            </Container> */}
             {/* SVG separator */}
-            <div className="separator separator-bottom separator-skew zindex-100">
+            {/* <div className="separator separator-bottom separator-skew zindex-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="none"
@@ -785,8 +799,8 @@ class Landing extends React.Component {
                 />
               </svg>
             </div>
-          </section>
-          <section className="section section-lg pt-lg-0 section-contact-us">
+          </section> */}
+          {/* <section className="section section-lg pt-lg-0 section-contact-us">
             <Container>
               <Row className="justify-content-center mt--300">
                 <Col lg="8">
@@ -856,14 +870,14 @@ class Landing extends React.Component {
                         </Button>
                       </div>
                     </CardBody>
-                  </Card>
-                </Col>
-              </Row>
-            </Container>
-          </section>
-          <Download />
+                  </Card> */}
+                {/* </Col> */}
+              {/* </Row>
+            </Container> */}
+          {/* </section> */}
+          {/* <Download /> */}
         </main>
-        <CardsFooter />
+        {/* <CardsFooter /> */}
       </>
     );
   }

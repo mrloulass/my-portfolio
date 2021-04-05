@@ -22,7 +22,7 @@ import { Button, Card, Container, Row, Col } from "reactstrap";
 
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
-import SimpleFooter from "components/Footers/SimpleFooter.js";
+// import SimpleFooter from "components/Footers/SimpleFooter.js";
 import profile from "assets/img/theme/PicLouis.jpg";
 
 class Profile extends React.Component {
@@ -71,7 +71,7 @@ class Profile extends React.Component {
                   <Row className="justify-content-center">
                     <Col className="order-lg-2" lg="3">
                       <div className="card-profile-image">
-                        <a href="#pablo" onClick={e => e.preventDefault()}>
+                        <a href="https://www.linkedin.com/in/louis-lassegue-4269531bb/" onClick={""}>
                           <img
                             alt="..."
                             className="rounded-circle"
@@ -92,16 +92,16 @@ class Profile extends React.Component {
                           onClick={e => e.preventDefault()}
                           size="sm"
                         >
-                          Connect
+                          Email
                         </Button>
                         <Button
                           className="float-right"
                           color="default"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          href="https://determined-darwin-67a50a.netlify.app/portfolio"
+                          onClick={""}
                           size="sm"
                         >
-                          Message
+                          Portfolio
                         </Button>
                       </div>
                     </Col>
@@ -117,7 +117,7 @@ class Profile extends React.Component {
                         </div>
                         <div>
                           <span className="heading">20+</span>
-                          <span className="description">Collaborations</span>
+                          <span className="description">Group Collaborations</span>
                         </div>
                       </div>
                     </Col>
@@ -148,9 +148,9 @@ class Profile extends React.Component {
                         Software developer focused in Full-Stack JavaScript language. Driven by opportunities to make a substantial impact. Strong background in inventory and logistics with delivering incredible customer service.
 
                         </p>
-                        <a href="#pablo" onClick={e => e.preventDefault()}>
+                        {/* <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more
-                        </a>
+                        </a> */}
                       </Col>
                     </Row>
                   </div>
@@ -159,7 +159,7 @@ class Profile extends React.Component {
             </Container>
           </section>
         </main>
-        <SimpleFooter />
+        {/* <SimpleFooter /> */}
       </>
     );
   }
